@@ -50,17 +50,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Alerta"
+                "$ref": "#/components/schemas/AlertaDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Alerta"
+                "$ref": "#/components/schemas/AlertaDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Alerta"
+                "$ref": "#/components/schemas/AlertaDto"
               }
             }
           }
@@ -147,17 +147,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Alerta"
+                "$ref": "#/components/schemas/AlertaDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Alerta"
+                "$ref": "#/components/schemas/AlertaDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Alerta"
+                "$ref": "#/components/schemas/AlertaDto"
               }
             }
           }
@@ -186,45 +186,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/WeatherForecast": {
-      "get": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "operationId": "GetWeatherForecast",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
           }
         }
       }
@@ -257,25 +218,23 @@
         },
         "additionalProperties": false
       },
-      "WeatherForecast": {
+      "AlertaDto": {
         "type": "object",
         "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
+          "id_licenca": {
             "type": "integer",
             "format": "int32"
           },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
+          "data_alerta": {
+            "type": "string",
+            "format": "date-time"
           },
-          "summary": {
+          "mensagem": {
             "type": "string",
             "nullable": true
+          },
+          "enviado": {
+            "type": "string"
           }
         },
         "additionalProperties": false

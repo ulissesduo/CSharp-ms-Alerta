@@ -12,11 +12,11 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<IAlertaRepository,AlertaRepository>();
 
 builder.Services.AddScoped<IAlertaService, AlertaService>();
+builder.Services.AddAutoMapper(typeof(Program));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 
 builder.Services.AddDbContext<DataContext>(options => options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));
 

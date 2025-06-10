@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("msAlerta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38137e4fbda44854f24fbef07f3c54b4d43c7198")]
 [assembly: System.Reflection.AssemblyProductAttribute("msAlerta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("msAlerta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

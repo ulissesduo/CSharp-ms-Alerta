@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|c:\\users\\ulisses\\source\\repos\\msalerta\\msalerta\\controllers\\alertacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|solutionrelative:msalerta\\controllers\\alertacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|c:\\users\\ulisses\\source\\repos\\msalerta\\msalerta\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|solutionrelative:msalerta\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|c:\\users\\ulisses\\source\\repos\\msalerta\\msalerta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|solutionrelative:msalerta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|c:\\users\\ulisses\\source\\repos\\msalerta\\msalerta\\service\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|solutionrelative:msalerta\\service\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1C53018-C9BA-46DF-93B7-2399BCDF9296}|msAlerta.Tests\\msAlerta.Tests.csproj|c:\\users\\ulisses\\source\\repos\\msalerta\\msalerta.tests\\controller\\alertacontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C53018-C9BA-46DF-93B7-2399BCDF9296}|msAlerta.Tests\\msAlerta.Tests.csproj|solutionrelative:msalerta.tests\\controller\\alertacontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|c:\\users\\ulisses\\source\\repos\\msalerta\\msalerta\\service\\ialertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|solutionrelative:msalerta\\service\\ialertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|c:\\users\\ulisses\\source\\repos\\msalerta\\msalerta\\controllers\\alertacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|solutionrelative:msalerta\\controllers\\alertacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|c:\\users\\ulisses\\source\\repos\\msalerta\\msalerta\\repository\\ialertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|solutionrelative:msalerta\\repository\\ialertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|c:\\users\\ulisses\\source\\repos\\msalerta\\msalerta\\repository\\alertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|solutionrelative:msalerta\\repository\\alertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|c:\\users\\ulisses\\source\\repos\\msalerta\\msalerta\\dto\\alertadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|solutionrelative:msalerta\\dto\\alertadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|c:\\users\\ulisses\\source\\repos\\msalerta\\msalerta\\entity\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|solutionrelative:msalerta\\entity\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|c:\\users\\ulisses\\source\\repos\\msalerta\\msalerta\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E32704F-74C3-429A-99A8-BD9392C33CD2}|msAlerta\\msAlerta.csproj|solutionrelative:msalerta\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "msAlerta\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\appsettings.Development.json",
-              "RelativeToolTip": "msAlerta\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-06T00:14:07.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AlertaController.cs",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Controllers\\AlertaController.cs",
-              "RelativeDocumentMoniker": "msAlerta\\Controllers\\AlertaController.cs",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Controllers\\AlertaController.cs",
-              "RelativeToolTip": "msAlerta\\Controllers\\AlertaController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAcwCkAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T23:48:58.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Program.cs",
               "RelativeDocumentMoniker": "msAlerta\\Program.cs",
               "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Program.cs",
               "RelativeToolTip": "msAlerta\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAmwB0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T23:40:18.805Z",
+              "WhenOpened": "2025-06-10T22:46:09.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AlertaService.cs",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Service\\AlertaService.cs",
-              "RelativeDocumentMoniker": "msAlerta\\Service\\AlertaService.cs",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Service\\AlertaService.cs",
-              "RelativeToolTip": "msAlerta\\Service\\AlertaService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAcwCsAAAAFAAAAAAAAAA==",
+              "Title": "AlertaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Dto\\AlertaDto.cs",
+              "RelativeDocumentMoniker": "msAlerta\\Dto\\AlertaDto.cs",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Dto\\AlertaDto.cs",
+              "RelativeToolTip": "msAlerta\\Dto\\AlertaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T23:35:39.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T01:22:04.836Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IAlertaService.cs",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Service\\IAlertaService.cs",
-              "RelativeDocumentMoniker": "msAlerta\\Service\\IAlertaService.cs",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Service\\IAlertaService.cs",
-              "RelativeToolTip": "msAlerta\\Service\\IAlertaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T23:35:30.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AlertaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Repository\\AlertaRepository.cs",
-              "RelativeDocumentMoniker": "msAlerta\\Repository\\AlertaRepository.cs",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Repository\\AlertaRepository.cs",
-              "RelativeToolTip": "msAlerta\\Repository\\AlertaRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T23:12:43.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAlertaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Repository\\IAlertaRepository.cs",
-              "RelativeDocumentMoniker": "msAlerta\\Repository\\IAlertaRepository.cs",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Repository\\IAlertaRepository.cs",
-              "RelativeToolTip": "msAlerta\\Repository\\IAlertaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T23:11:22.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Alerta.cs",
               "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Entity\\Alerta.cs",
               "RelativeDocumentMoniker": "msAlerta\\Entity\\Alerta.cs",
               "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Entity\\Alerta.cs",
               "RelativeToolTip": "msAlerta\\Entity\\Alerta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T23:10:56.966Z",
+              "WhenOpened": "2025-06-08T01:21:58.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlertaController.cs",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Controllers\\AlertaController.cs",
+              "RelativeDocumentMoniker": "msAlerta\\Controllers\\AlertaController.cs",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Controllers\\AlertaController.cs",
+              "RelativeToolTip": "msAlerta\\Controllers\\AlertaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T16:12:23.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "msAlerta\\Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta\\Data\\DataContext.cs",
-              "RelativeToolTip": "msAlerta\\Data\\DataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AlertaControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta.Tests\\Controller\\AlertaControllerTests.cs",
+              "RelativeDocumentMoniker": "msAlerta.Tests\\Controller\\AlertaControllerTests.cs",
+              "ToolTip": "C:\\Users\\Ulisses\\source\\repos\\msAlerta\\msAlerta.Tests\\Controller\\AlertaControllerTests.cs",
+              "RelativeToolTip": "msAlerta.Tests\\Controller\\AlertaControllerTests.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T23:10:49.789Z",
+              "WhenOpened": "2025-06-07T16:08:50.337Z",
               "EditorCaption": ""
             }
           ]

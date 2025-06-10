@@ -32,14 +32,14 @@ namespace msAlerta.Service
             return await _alertaRepository.ListaAlertas();
         }
 
-        public Task<Alerta> UpdateAlert(int id, Alerta alerta)
+        public async Task<Alerta> UpdateAlert(int id, Alerta alerta)
         {
-            var existingAlert = _alertaRepository.AlertaById(id);
+            var existingAlert = await _alertaRepository.AlertaById(id);
             if (existingAlert != null) 
             {
-                return null;
+                return await _alertaRepository.UpdateAlerta(id, alerta);
             }
-            return _alertaRepository.UpdateAlerta(id, alerta);
+            return null;
         }
     }
 }

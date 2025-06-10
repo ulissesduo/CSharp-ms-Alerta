@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using msAlerta.Dto;
 using msAlerta.Entity;
 using msAlerta.Service;
 
@@ -10,9 +12,11 @@ namespace msAlerta.Controllers
     public class AlertaController : ControllerBase
     {
         public readonly IAlertaService _alertaService;
-        public AlertaController(IAlertaService alertaService) 
+        private readonly IMapper _mapper;
+        public AlertaController(IAlertaService alertaService, IMapper mapper) 
         {
             _alertaService = alertaService;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -32,21 +36,41 @@ namespace msAlerta.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Alerta>> CreateAlertAsync(Alerta alerta) 
+        public async Task<ActionResult<Alerta>> CreateAlertAsync([FromBody] AlertaDto dto)
         {
+            if (dto == null)
+                return BadRequest("Invalid alert data");
+
+            var alerta = new Alerta
+            {
+                Id_licenca = dto.Id_licenca,
+                Data_alerta = dto.Data_alerta,
+                Mensagem = dto.Mensagem,
+                Enviado = dto.Enviado
+            };
+
             var newAlerta = await _alertaService.CreateAlert(alerta);
-            return CreatedAtAction(nameof(GetAlertAsync), new { id = newAlerta.Id }, newAlerta);
+            return Created("", newAlerta);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateAlertAsync(int id, Alerta alerta)
+        public async Task<IActionResult> UpdateAlertAsync(int id, [FromBody] AlertaDto dto)
         {
-            var updatedAlert = await _alertaService.UpdateAlert(id, alerta);
+            if (dto == null)
+                return BadRequest("Invalid alert data");
 
-            if (updatedAlert == null)
+            var alerta = new Alerta
             {
+                Id = id, // Make sure ID is passed
+                Id_licenca = dto.Id_licenca,
+                Data_alerta = dto.Data_alerta,
+                Mensagem = dto.Mensagem,
+                Enviado = dto.Enviado
+            };
+
+            var updatedAlert = await _alertaService.UpdateAlert(id, alerta);
+            if (updatedAlert == null)
                 return NotFound();
-            }
 
             return Ok(updatedAlert);
         }
